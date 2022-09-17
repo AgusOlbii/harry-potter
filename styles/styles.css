@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Raleway:wght@100&display=swap');
+@font-face {
+    font-family: "hp-fonts";
+    src: url(/HARRYP__.TTF);
+ 
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+    height: 100vh;
+    color: white;
+    background-color: rgba(81, 56, 180, 0.917);
+    background-image: url(../images/fondo-hogwarts.jpg);
+    background-repeat: no-repeat;
+    /*background: rgb(121,96,33);
+    background: linear-gradient(90deg, rgba(121,96,33,1) 0%, rgba(222,173,58,1) 10%, rgba(121,96,33,1) 20%, rgba(222,173,58,1) 30%, rgba(121,96,33,1) 40%, rgba(222,173,58,1) 50%, rgba(121,96,33,1) 60%, rgba(222,173,58,1) 70%, rgba(121,96,33,1) 80%, rgba(222,173,58,1) 90%, rgba(121,96,33,1) 100%);*/
+}
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1.5rem;
+}
+/* header */
+header picture{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgba(81, 81, 210, 0.602);
+}
+header picture img{
+    height: 20rem;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: rgba(39, 39, 144, 0.712);
+    
+
+}
+header nav ul li{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+header nav ul li a{
+    font-size: 2rem;
+    color: white;
+}
+a:hover{
+    font-size: 2.3rem;
+}
+/* INDEX */
+/* main */
+.section-home{
+    display: flex;
+
+}
+section .h2-home{
+    font-size: 3rem;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+.section-home div p{
+    font-size: 2rem;
+    padding-right: 25rem;
+    padding-left: 1rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    text-align:justify;
+}
+/* IMAGEN */
+
+section picture img{
+    height: 46rem;
+    padding-bottom: 0rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+}
+
+/* footer */
+footer table tr th{
+    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    border: none;
+    margin-top: 5rem;
+    margin-left: 12rem;
+}
+footer table{
+    padding-right: 3rem;
+    padding-left: 5rem;
+    margin-left: 50rem;
+    border: 0.5rem double black ;
+    border-radius: 10rem;
+    -webkit-box-shadow: -20px -15px 22px -11px rgba(0,0,0,1);
+    -moz-box-shadow: -20px -15px 22px -11px rgba(0,0,0,1);
+    box-shadow: -20px -15px 22px -11px rgba(0,0,0,1);
+    background-color: rgba(108, 108, 108, 0.72);
+}
+footer table tr td{
+    text-align: center;
+    color: white;
+
+}
+
+
+/* HISTORIA */
+section article{
+    background-color: rgba(108, 108, 108, 0.72);
+}
+
+section article h2{
+    font-size: 3rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+section article p{
+    font-size: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+section article h3{
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+/* CRONOLOGIA */
+
+
+
+
+
+/* PERSONAJES */
+
+.body-personajes{
+    background-color: rgba(108, 108, 108, 0.72);;
+}
+
+
+
+.primera-linea{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+
+}
+
+section figure{
+    height: 220px;
+    width: 210px;
+    padding-bottom: 6rem;
+    margin-left: 5rem;
+    border: 5px solid black;
+    background-color: black;
+}
+figcaption ul li{
+    list-style: none;
+}
+figcaption ul{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+span{
+    /* background: rgb(121,96,33);
+    background: linear-gradient(90deg, rgba(121,96,33,0.9010197829131653) 0%, rgba(204,158,49,0.9262298669467787) 34%, rgba(190,140,20,0.9066220238095238) 59%, rgba(230,187,84,0.9066220238095238) 85%); */
+    color: white;
+}
+/* HARRY POTTER */
+.img-harry{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* HERMIONE GRANGER */
+.img-hermione{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* RON WEASLEY */
+.img-ron{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* GINNY WEASLEY */
+.img-ginny{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* FRED WEASLEY */
+.img-fred{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/*
+--------------------------------------------------------------------------
+SEGUNDA LINEA--*/
+.segunda-linea{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* GEORGE WEASLEY */
+.img-george{
+    padding-left: 0.5rem;
+    height: 220px;
+    width: 200px;
+    object-fit: initial;
+}
+/* NEVILLE LONGBOTTOM */
+.img-neville{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* DRACO MALFOY */
+.img-draco{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* LUNA LOVEGOOD */
+.img-luna{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* CEDRIC DIGGORY */
+.img-cedric{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/*--------------------------------------------------
+ TERCER LINEA---*/
+ .tercera-linea{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* CHO CHANG */
+.img-cho-chang{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* FLEUR DELACOUR */
+.img-fleur{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* VIKTOR KRUM */
+.img-viktor{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* ALBUS DUMBLEDORE */
+.img-albus{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* MINERVA McGONAGALL */
+.img-minerva{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+
+/*--------------------------------------------------
+ CUARTA LINEA----*/
+.cuarta-linea{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* RUBEUS HAGRID */
+.img-rubeus{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* SEVERUS SNAPE */
+.img-severus{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* GILDEROY LOCKHART */
+.img-gilderoy{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* REMUS LUPIN */
+.img-remus{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* SYBILL TRELAWNEY */
+.img-sybill{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+
+/*--------------------------------------------------
+ QUINTA LINEA-----*/
+ .quinta-linea{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* SIRIUS BLACK */
+.img-sirius{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* ALASTOR MOODY */
+.img-ojoloco{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* ARGUS FILCH */
+.img-argus{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* HORACE SLUGHORN */
+.img-horace{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* POMONA SPROUT */
+.img-pomona{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/*--------------------------------------------------
+ SEXTA LINEA------*/
+ .sexta-linea{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* PETER PETTIGREW */
+.img-peter{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* BARTY' CROUCH JR. */
+.img-barty{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* BELLATRIX LESTRANGE */
+.img-bellatrix{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* FENRIR GREYBACK */
+.img-fenrir{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+/* LORD VOLDEMORT */
+.img-voldemort{
+    height: 220px;
+    width: 210px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* CORONOLOGIA PRUEBA FLEX */
+
+.prueba-flex div{
+    background-color: rgba(166, 88, 238, 0.663);
+    padding: 2.5rem;
+    margin: 1rem;
+}
+
+.prueba-flex{
+    background-color: antiquewhite;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* 
+a:hover{}
+
+*/
+
+/* CONTACTO */
+.contacto p{
+    margin-right: 105rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+label{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+input{
+    height: 1.6rem;
+    background-color: rgb(211, 211, 211);
+}
+.submit input{
+    height: 3rem;
+    width: 9rem;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer-contacto{
+    margin-top: 15rem;
+}
